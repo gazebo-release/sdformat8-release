@@ -1,10 +1,10 @@
-sdformat4 (4.0.0~pre1-1~trusty) trusty; urgency=medium
+sdformat4 (4.0.0~pre1-1~vivid) vivid; urgency=medium
 
   * sdformat4 4.0.0~pre1-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 01 Dec 2015 01:53:09 +0100
 
-sdformat4 (3.99.0-1~trusty) trusty; urgency=medium
+sdformat4 (3.99.0-1~vivid) vivid; urgency=medium
 
   * Stub for nightly releases. No sdformat4 official release yet
 
