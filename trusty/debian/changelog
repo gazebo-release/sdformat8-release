@@ -1,5 +1,5 @@
-sdformat4-mentor2 (4.99.99-1~trusty) trusty; urgency=medium
+sdformat4-mentor2 (4.99.99+mentor2v1.0-1~trusty) trusty; urgency=medium
 
-  * sdformat4-mentor2 4.99.99-1 release
+  * sdformat4-mentor2 4.99.99+mentor2v1.0-1 release
 
  -- Ian Chen <ichen@osrfoundation.org>  Thu, 28 Jan 2015 13:49:42 -0800
