@@ -1,3 +1,9 @@
+sdformat4 (4.2.0-0~trusty) xenial; urgency=medium
+
+  * sdformat4 4.2.0-0 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 10 Oct 2016 14:49:57 -0700
+
 sdformat4 (4.1.1-1~xenial) xenial; urgency=medium
 
   * sdformat4 4.1.1-1 release
