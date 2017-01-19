@@ -1,3 +1,9 @@
+sdformat4 (4.3.0~pre1-1~trusty) trusty; urgency=medium
+
+  * sdformat4 4.3.0~pre1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 19 Jan 2017 14:34:33 +0100
+
 sdformat4 (4.2.0-1~trusty) trusty; urgency=medium
 
   * sdformat4 4.2.0-1 release
