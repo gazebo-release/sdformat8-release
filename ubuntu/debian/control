@@ -17,7 +17,7 @@ Build-Depends: cmake,
                texlive-base,
                texlive-fonts-recommended,
                texlive-latex-extra,
-               ruby,
+               ruby1.9.1,
                libignition-math3-dev
 Vcs-Browser: https://bitbucket.org/osrf/sdformat4-release
 Vcs-Hg: https://bitbucket.org/osrf/sdformat4-release
