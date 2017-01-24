@@ -1,6 +1,6 @@
-sdformat4 (5.0.0~beta1-1~xenial) xenial; urgency=medium
+sdformat5 (5.0.0~beta1-1~xenial) xenial; urgency=medium
 
-  * sdformat4 5.0.0~beta1-1 release
+  * sdformat5 5.0.0~beta1-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 24 Jan 2017 22:48:11 +0100
 
