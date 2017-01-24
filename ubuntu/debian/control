@@ -31,10 +31,12 @@ Depends:  sdformat-sdf (>= ${source:Version}),
           ${shlibs:Depends},
           ${misc:Depends}
 Multi-Arch: same
-Conflicts: libsdformat1,
-           libsdformat2,
-           libsdformat4,
-           sdformat,
+Breaks: libsdformat2,
+        libsdformat3,
+        libsdformat4
+Replaces: libsdformat2,
+          libsdformat3,
+          libsdformat4
 Description: Simulation Description Format (SDF) parser - Shared library
  SDF is an XML file format that describes environments, objects, and robots
  in a manner suitable for robotic applications. SDF is capable of representing
@@ -56,8 +58,12 @@ Depends: libboost-system-dev,
          libignition-math3-dev,
          libsdformat5 (= ${binary:Version}),
          ${misc:Depends}
-Conflicts: libsdformat2-dev,
-           libsdformat4-dev
+Breaks: libsdformat2-dev,
+        libsdformat3-dev,
+        libsdformat4-dev
+Replaces: libsdformat2-dev,
+        libsdformat3-dev,
+        libsdformat4-dev
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser - Development files
  SDF is an XML file format that describes environments, objects, and robots
