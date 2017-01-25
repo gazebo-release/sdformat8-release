@@ -1,3 +1,9 @@
+sdformat5 (5.0.0~beta2-1~xenial) xenial; urgency=medium
+
+  * sdformat5 5.0.0~beta2-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 25 Jan 2017 02:17:08 +0100
+
 sdformat5 (5.0.0~beta1-2~xenial) xenial; urgency=medium
 
   * sdformat5 5.0.0~beta1-2 release
