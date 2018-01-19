@@ -6,7 +6,6 @@ Priority: optional
 Build-Depends: cmake,
                debhelper (>= 9),
                python,
-               latex-xcolor,
                libboost-system-dev,
                libtinyxml-dev,
                doxygen,
