@@ -1,4 +1,4 @@
-Source: sdformat5
+Source: sdformat6
 Standards-Version: 3.9.5
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -15,11 +15,11 @@ Build-Depends: cmake,
                texlive-latex-extra,
                ruby,
                libignition-math3-dev
-Vcs-Browser: https://bitbucket.org/osrf/sdformat5-release
-Vcs-Hg: https://bitbucket.org/osrf/sdformat5-release
+Vcs-Browser: https://bitbucket.org/osrf/sdformat6-release
+Vcs-Hg: https://bitbucket.org/osrf/sdformat6-release
 Homepage: http://sdformat.org
 
-Package: libsdformat5
+Package: libsdformat6
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -29,10 +29,12 @@ Depends:  sdformat-sdf (>= ${source:Version}),
 Multi-Arch: same
 Breaks: libsdformat2,
         libsdformat3,
-        libsdformat4
+        libsdformat4,
+        libsdformat5
 Replaces: libsdformat2,
           libsdformat3,
-          libsdformat4
+          libsdformat4,
+          libsdformat5
 Description: Simulation Description Format (SDF) parser - Shared library
  SDF is an XML file format that describes environments, objects, and robots
  in a manner suitable for robotic applications. SDF is capable of representing
@@ -42,20 +44,22 @@ Description: Simulation Description Format (SDF) parser - Shared library
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: libsdformat5-dev
+Package: libsdformat6-dev
 Architecture: any
 Section: libdevel
 Depends: libboost-system-dev,
          libtinyxml-dev,
          libignition-math3-dev,
-         libsdformat5 (= ${binary:Version}),
+         libsdformat6 (= ${binary:Version}),
          ${misc:Depends}
 Breaks: libsdformat2-dev,
         libsdformat3-dev,
-        libsdformat4-dev
+        libsdformat4-dev,
+        libsdformat5-dev
 Replaces: libsdformat2-dev,
         libsdformat3-dev,
-        libsdformat4-dev
+        libsdformat4-dev,
+        libsdformat5-dev
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser - Development files
  SDF is an XML file format that describes environments, objects, and robots
@@ -84,12 +88,12 @@ Description: Simulation Description Format (SDF) parser - SDF files
  This package contains SDF (Simulation Description Format) XML files needed by
  the libsdformat.
 
-Package: libsdformat5-dbg
+Package: libsdformat6-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libsdformat5 (= ${binary:Version}),
+     libsdformat6 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser - Debugging symbols
@@ -101,7 +105,7 @@ Description: Simulation Description Format (SDF) parser - Debugging symbols
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: sdformat5-doc
+Package: sdformat6-doc
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}, libjs-jquery
