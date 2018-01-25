@@ -13,7 +13,7 @@ Build-Depends: cmake,
                texlive-fonts-recommended,
                texlive-latex-extra,
                ruby,
-               libignition-math3-dev
+               libignition-math4-dev
 Vcs-Browser: https://bitbucket.org/osrf/sdformat6-release
 Vcs-Hg: https://bitbucket.org/osrf/sdformat6-release
 Homepage: http://sdformat.org
@@ -48,7 +48,7 @@ Architecture: any
 Section: libdevel
 Depends: libboost-system-dev,
          libtinyxml-dev,
-         libignition-math3-dev,
+         libignition-math4-dev,
          libsdformat6 (= ${binary:Version}),
          ${misc:Depends}
 Breaks: libsdformat2-dev,
