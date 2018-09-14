@@ -1,4 +1,4 @@
-Source: sdformat6
+Source: sdformat8
 Standards-Version: 3.9.5
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -13,12 +13,12 @@ Build-Depends: cmake,
                texlive-fonts-recommended,
                texlive-latex-extra,
                ruby,
-               libignition-math4-dev
-Vcs-Browser: https://bitbucket.org/osrf/sdformat6-release
-Vcs-Hg: https://bitbucket.org/osrf/sdformat6-release
+               libignition-math6-dev
+Vcs-Browser: https://bitbucket.org/osrf/sdformat8-release
+Vcs-Hg: https://bitbucket.org/osrf/sdformat8-release
 Homepage: http://sdformat.org
 
-Package: libsdformat6
+Package: libsdformat8
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -43,13 +43,13 @@ Description: Simulation Description Format (SDF) parser - Shared library
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: libsdformat6-dev
+Package: libsdformat8-dev
 Architecture: any
 Section: libdevel
 Depends: libboost-system-dev,
          libtinyxml-dev,
-         libignition-math4-dev,
-         libsdformat6 (= ${binary:Version}),
+         libignition-math6-dev,
+         libsdformat8 (= ${binary:Version}),
          ${misc:Depends}
 Breaks: libsdformat2-dev,
         libsdformat3-dev,
@@ -87,12 +87,12 @@ Description: Simulation Description Format (SDF) parser - SDF files
  This package contains SDF (Simulation Description Format) XML files needed by
  the libsdformat.
 
-Package: libsdformat6-dbg
+Package: libsdformat8-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libsdformat6 (= ${binary:Version}),
+     libsdformat8 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser - Debugging symbols
@@ -104,7 +104,7 @@ Description: Simulation Description Format (SDF) parser - Debugging symbols
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: sdformat6-doc
+Package: sdformat8-doc
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}, libjs-jquery
