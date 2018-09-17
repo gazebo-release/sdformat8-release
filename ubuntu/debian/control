@@ -4,9 +4,8 @@ Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
 Build-Depends: cmake,
-               debhelper (>= 9),
+               debhelper (>= 11),
                python,
-               libboost-system-dev,
                libtinyxml-dev,
                doxygen,
                texlive-base,
@@ -46,8 +45,7 @@ Description: Simulation Description Format (SDF) parser - Shared library
 Package: libsdformat8-dev
 Architecture: any
 Section: libdevel
-Depends: libboost-system-dev,
-         libtinyxml-dev,
+Depends: libtinyxml-dev,
          libignition-math6-dev,
          libsdformat8 (= ${binary:Version}),
          ${misc:Depends}
