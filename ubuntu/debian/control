@@ -22,7 +22,7 @@ Package: libsdformat8
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
-Depends:  sdformat-sdf (>= ${source:Version}),
+Depends:  sdformat8-sdf (>= ${source:Version}),
           ${shlibs:Depends},
           ${misc:Depends}
 Multi-Arch: same
@@ -69,7 +69,7 @@ Description: Simulation Description Format (SDF) parser - Development files
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
  
-Package: sdformat-sdf
+Package: sdformat8-sdf
 Architecture: all
 Section: libdevel
 Depends: ${misc:Depends}
