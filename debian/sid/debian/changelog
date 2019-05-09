@@ -1,3 +1,9 @@
+sdformat8 (8.1.0~pre1-1~sid) sid; urgency=medium
+
+  * sdformat8 8.1.0~pre1-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Thu, 09 May 2019 16:09:41 -0700
+
 sdformat8 (8.0.0-1~sid) sid; urgency=medium
 
   * sdformat8 8.0.0-1 release

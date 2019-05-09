@@ -1,3 +1,9 @@
+sdformat8 (8.1.0~pre1-1~bionic) bionic; urgency=medium
+
+  * sdformat8 8.1.0~pre1-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Thu, 09 May 2019 16:09:40 -0700
+
 sdformat8 (8.0.0-1~bionic) bionic; urgency=medium
 
   * sdformat8 8.0.0-1 release
