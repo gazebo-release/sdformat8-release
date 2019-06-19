@@ -1,3 +1,9 @@
+sdformat8 (8.2.0-1~stretch) stretch; urgency=medium
+
+  * sdformat8 8.2.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Wed, 19 Jun 2019 07:24:43 -0700
+
 sdformat8 (8.2.0~pre1-1~stretch) stretch; urgency=medium
 
   * sdformat8 8.2.0~pre1-1 release
