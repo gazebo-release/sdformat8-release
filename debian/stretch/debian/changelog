@@ -1,3 +1,9 @@
+sdformat8 (8.4.1~pre1-1~stretch) stretch; urgency=medium
+
+  * sdformat8 8.4.1~pre1-1 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Fri, 25 Oct 2019 16:37:13 -0700
+
 sdformat8 (8.4.0-1~stretch) stretch; urgency=medium
 
   * sdformat8 8.4.0-1 release
